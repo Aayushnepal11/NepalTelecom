@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ----------- Navigations ----------  */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #1054a6;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: .2;
+}
+
+.header__logo img {
+    max-width: 36%;
+    flex: 0;
+    height: 70px;
+    padding: 5px 0px 3px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1054a6;
+}
+
+.menu .left {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    align-items: center;
+}
+
+.menu .left .nav-item .nav-link {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 6px 18px;
+}
+
+.menu .left .nav-item .active {
+    color: #000;
+    background: #e6b646;
+    border-radius: 5px;
+}
+
+.menu .left .nav-item .active:hover {
+    color: hsla(0, 0%, 100%, .9);
+}
+
+.menu .nav-link:hover {
+    background: rgba(0, 0, 0, .2);
+    color: hsla(0, 0%, 100%, .9);
+    border-radius: 5px;
+    transition: .3s ease-in-out background;
+}
+
+.serach {
+    position: relative;
+    z-index: 3;
+    top: 5px;
+    left: 30%;
+}
+
+.serach:hover{
+    cursor: pointer;
+}
+
+
+/* ----------------- Navigation ---------------*/
